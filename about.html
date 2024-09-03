@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me  -  Portfolio Farhan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            background-image: url(kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            position: relative;
+            padding: 5px 0;
+        }
+
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background-color: #89bae0;
+            left: 0;
+            bottom: 0;
+            transition: 0.4s;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+
+       
+        .about-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 100px;
+            padding: 20px;
+            background-color: #fff9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .about-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .about-section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #202020;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            color: #494747;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="about-section" id="about">
+    <img src="WhatsApp Image 2024-08-27 at 06.33.55_aa59973b.jpg" alt="Your Name">
+    <h2>Malik Farhan Nazheef D</h2>
+    <p>Nama saya Malik Farhan Nazheef Dirgantoro.Saya siswa SMKN 6 Tangerang selatan jurusan Rekaysa Perangkat Lunak(RPL).Hobby saya otomotif saya terbiasa memodifikasi mobil dan motor</p>
+</div>
+
+</body>
+</html>
